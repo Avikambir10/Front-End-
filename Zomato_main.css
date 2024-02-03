@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    margin-bottom: 4rem;
+}
+
+.nav{
+    color: white;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    padding-left: 210px;
+}
+
+.nav .app{
+    cursor: pointer;
+}
+
+.nav-bar{
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    left: 59%;
+    float: right;
+}
+
+.nav-bar li{
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.head{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.head .logo_line{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.logo{
+    padding-top: 50px;
+    height: 70px;
+}
+
+.header-image{
+    width: 100%;
+    position: absolute;
+    top: -20vh;
+    z-index: -1;
+}
+
+.header-image img{
+    filter: brightness(0.7);
+    position: relative;
+    width: 100vw;
+    height: auto;
+}
+
+.search{
+    font-family: sans-serif;
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 4px;
+}
+
+.search .search-item{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.search .search-item p{
+    color: gray;
+    border-right: 1px solid gray;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 92px;
+}
+
+.search .search-item input{
+    outline: none;
+    border: none;
+    width: 200%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.search .search-item:first-child{
+    width: 30%;
+    color: rgb(255, 126, 139);
+}
+
+.search .search-item:last-child{
+    width: 70%;
+    color: gray;
+}
+
+/* Section - 1 */
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+    height: auto;
+    column-gap: 20px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.section-1 .box{
+    overflow: hidden;
+    display: inline;
+    height: 220px;
+    width: 350px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+.section-1 .box:hover{
+    transform: scale(1.05);
+}
+
+.section-1 .box img{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-1 .box-text{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.7);
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+.section-1 .p1{
+    font-size: medium;
+    margin: 0;
+    height: 26px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.section-1 .p2{
+    font-size: medium;
+    margin: 0;
+    padding-top: 4px;
+    font-family: Okra, Helvetica, sans-serif;
+    color: rgb(65, 62, 62);
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+/* SECTION 2 */
+.section-2 {
+    width: 1080px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+.section-2-heading {
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.section-2 .section-2-container  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-2 .section-2-container .section-2-item {
+    width: 100%;
+    max-width: 26%;
+    margin-bottom: 20px;
+}
+.section-2-item {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(236, 236, 236);
+    padding: 20px;
+}
+.section-2-item .item-head {
+    font-size: 1.2rem;
+    color: rgb(28, 28, 28);
+    margin: 0;
+    margin-bottom: 5px;
+}
+.section-2-item .item-subhead {
+    font-weight: 550;
+    color: rgb(51, 51, 51);
+    margin: 0;
+}
+
+.section-2 .section-2-container  .section-2-item:hover{
+    box-shadow: 2px 2px 8px 0px gray;
+    transition: 0.3s;
+}
+
+/* section - 3 */
+
+
+footer{
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+    height: fit-content;
+}
+
+.footer-logo{
+    position: relative;
+    top: 50px;
+    left: 200px;
+    height: 40px;
+}
+
+.footer-table{
+    text-align: left;
+    position: relative;
+    display: block;
+    margin-top: 90px;
+    margin-left: 209px;
+    font-weight: lighter;
+    height: 270px;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.footer-table th{
+    padding-bottom: 10px;
+    letter-spacing: .2em;
+}
+
+.footer-table td{
+    letter-spacing: -0.05em;
+}
+
+.footer-table td , th{
+    padding-right: 100px;
+}
+
+hr{
+    width: 72%;
+}
+
+.ending-line{
+    color: rgb(122, 122, 122);
+    display: flex;
+    font-size: 12.8px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 35px;
+    margin: 0;
+}
